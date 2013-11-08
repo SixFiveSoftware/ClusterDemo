@@ -10,7 +10,7 @@ This is a demo for a talk I'm giving at CocoaHeads MeetUp, November 19, 2013, in
 Comments were intentionally left in the code, as well as NSLog statements, to illustrate via the console which iOS you're using and what methods are being called when using the Simulator or your device.
 
 ####Contact
-email: bj@sixfivesoftware
-twitter: @bjmillerltd
-app.net: @bjmiller
+* email: bj@sixfivesoftware
+* twitter: @bjmillerltd
+* app.net: @bjmiller
 
