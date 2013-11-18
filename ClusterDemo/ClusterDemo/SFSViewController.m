@@ -46,7 +46,7 @@
         if ([vc respondsToSelector:@selector(setTheCompletionBlock:)]) {
             [vc setTheCompletionBlock:^(id obj, NSInteger idx) {
                 dispatch_async(dispatch_get_main_queue(), ^{
-                    self.myLabel.text = [NSString stringWithFormat:@"Item %d, %@, selected. (zero-based, of course!)", idx, obj];
+                    self.myLabel.text = [NSString stringWithFormat:@"Item %ld, %@, selected. (zero-based, of course!)", (long)idx, obj];
                 });
             }];
         }
